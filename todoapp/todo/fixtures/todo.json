@@ -1,0 +1,13 @@
+[
+  {
+    "model": "todo.event",
+    "pk": 1,
+    "fields": {
+      "title": "breakfast",
+      "description": "have breakfast with vada, coffee",
+      "people_wants_to_meet": "team, members",
+      "time_of_event": "2012-12-18"
+      
+    }
+  }
+]
