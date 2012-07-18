@@ -6,8 +6,17 @@
       "title": "breakfast",
       "description": "have breakfast with vada, coffee",
       "people_wants_to_meet": "team, members",
-      "time_of_event": "2012-12-18"
-      
+      "time_of_event": "2012-12-18",
+      "user": "1"
+    }
+  },
+  {
+    "model": "todo.User",
+    "pk": 1,
+    "fields":{
+      "user_name": "Saravanan",
+      "password": "saravanan",
+      "email": "saravanp@thoughtworks.com"
     }
   }
 ]
