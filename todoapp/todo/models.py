@@ -8,8 +8,8 @@ class User(models.Model):
 
 class Event(models.Model):
   title = models.CharField(max_length=50)
-  description = models.CharField(max_length=500)
-  people_wants_to_meet = models.CharField(max_length = 500)
-  time_of_event = models.DateTimeField(auto_now=False, auto_now_add=False)
+  description = models.TextField()
+  people_wants_to_meet = models.CharField(max_length= 100)
+  time_of_event = models.DateTimeField()
   user = models.ForeignKey(User)
 
